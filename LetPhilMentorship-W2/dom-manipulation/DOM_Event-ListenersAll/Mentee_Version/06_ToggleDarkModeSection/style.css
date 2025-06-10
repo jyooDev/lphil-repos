@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.dark-section {
+  background-color: magenta;
+}
