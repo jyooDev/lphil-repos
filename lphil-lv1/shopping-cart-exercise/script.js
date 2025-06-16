@@ -86,12 +86,12 @@ addItemBtn.addEventListener('click', () => {
             'name': productName.value.trim(),
             'price': parseFloat(productPrice.value).toFixed(2),
             'image': productImage.value.trim(),
-            'count': 0
+            'count': 1
         })
     }
-    productName.textContent = '';
-    productPrice.textContent = '';
-    productImage.textContent = '';
+    productName.value = '';
+    productPrice.value = '';
+    productImage.value = '';
     localStorage.setItem('products', JSON.stringify(products));
     renderListItems();
 })
