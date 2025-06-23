@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^1.10.0",
+    "chart.js": "^4.5.0"
+  },
+  "name": "axios-crypto",
+  "version": "1.0.0",
+  "description": "This beginner-friendly project teaches you how to use **Axios** to fetch cryptocurrency prices and display them using **Chart.js**. You’ll also learn how to use `Promise.all`, the difference between `axios.create()` and `axios.get()`, and how `async/await` fits in.",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
